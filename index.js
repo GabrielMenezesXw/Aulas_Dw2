@@ -1,8 +1,2 @@
-function calcularBoleto(valorBoleto, diasAtraso) {
-  const taxa = 0.00033;
-  const valorTaxa = valorBoleto * taxa;
-  const valorMulta = valorTaxa * diasAtraso;
-  const valorAtualizado = valorBoleto + valorMulta;
-  return valorAtualizado;
-}
-console.log(calcularBoleto(1000, 1));
+//Faça uma função que irá receber três parâmetros. O primeiro será um numero que representao valor de uma compra que está sendo feita no mercado / farmácia. O segundo parâmetro é um boolean que represena se quem vai fazer a compra possui ou não convênio com o estabelecimento e o último parâmetro representa se a compra está sendo feita ou não com o cartão da loja. Se a pessoa que estiver fazendo a compra possuir o cartão da loja e possui convênio então o desconto será de 15%. Se o usuário tiver possuir convenio ou estiver fazendo a compra pelo cartão da loja o desconto é de 10%. Caso o usuário não tenha nenhum desses benefícios não existe desconto para a compra.
+

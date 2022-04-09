@@ -1,6 +1,6 @@
 function calcularBoleto(valorBoleto, diasAtraso) {
-  const taxa = 0.00033;
-  const valorTaxa = valorBoleto * taxa;
+  const taxa = 0.033;
+  const valorTaxa = (valorBoleto * taxa) / 100;
   const valorMulta = valorTaxa * diasAtraso;
   const valorAtualizado = valorBoleto + valorMulta;
   return valorAtualizado;
