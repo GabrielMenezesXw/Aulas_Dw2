@@ -5,4 +5,4 @@ function calcularBoleto(valorBoleto, diasAtraso) {
   const valorAtualizado = valorBoleto + valorMulta;
   return valorAtualizado;
 }
-console.log(calcularBoleto(1000, 1));
+console.log(calcularBoleto(1000, 12));
