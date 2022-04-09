@@ -1,7 +1,7 @@
-function calcularBoleto(valorBoleto, diasAtrasado) {
+function calcularBoleto(valorBoleto, diasAtraso) {
   const taxa = 0.033;
   const valorTaxa = valorBoleto * taxa;
-  const valorMulta = valorTaxa * diasAtrasado;
+  const valorMulta = valorTaxa * diasAtraso;
   const valorAtualizado = valorBoleto + valorMulta;
   return valorAtualizado;
 }
