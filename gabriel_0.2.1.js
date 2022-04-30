@@ -12,11 +12,11 @@ const filmes = [
     diretores: ['Luis inácio luigi da silva'],
     generos: ['Fantasia', 'Magia'],
     boxOfice:[
-      America = 1_263_788,
-      Oceania = 125_516,
-      Europa = 121_789,
-      Asia = 1_241_256,
-      Antártida = 3,
+      {America : 1_263_788},
+      {Oceania : 125_516},
+      {Europa : 121_789},
+      {Asia : 1_241_256},
+      {Antártida : 3},
     ]
   },
   {
@@ -25,11 +25,11 @@ const filmes = [
     diretores: ['Keanu Reaves', 'Keanu Reaves - 04'],
     generos: ['Ação', 'Ficção Cientifica', 'Games '],
     boxOfice:[
-      America = 21_002_310,
-      Oceania = 20_102,
-      Europa = 1_011_1345,
-      Asia = 1_203_781_023,
-      Antártida = 5,
+      {America : 21_002_310},
+      {Oceania : 20_102},
+      {Europa : 1_011_1345},
+      {Asia : 1_203_781_023},
+      {Antártida : 5},
     ]
   }
 ]
